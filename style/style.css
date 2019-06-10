@@ -1,3 +1,31 @@
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Lato', sans-serif;
+*/
+#preloader {
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999; 
+}
+#status {
+  background-image: url(./gif/Facebook-0.9s-70px.gif);
+  background-repeat: no-repeat;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -35px;
+  margin-left: -35px;
+}
 h1 {
   color: blue;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
