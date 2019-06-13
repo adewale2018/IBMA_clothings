@@ -5,7 +5,7 @@ $(window).on('load', function() {
   alert('window is fully loaded');
 });
 */
-$(window).on('load', function() {
+$(window).on('load', function () {
   $('#status').fadeOut();
   $('#preloader').delay(500).fadeOut('slow');
 });
