@@ -1,30 +1,37 @@
-html, body {
+html,
+body {
   height: 100%;
 }
+
 body {
   color: #212226;
 }
+
 h1 {
   font-family: 'Montserrat Subrayada', sans-serif;
   letter-spacing: 10px;
 }
+
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: 'Raleway', sans-serif; 
+  font-family: 'Raleway', sans-serif;
 }
+
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
 }
-section{
+
+section {
   background: #fff;
   overflow: hidden;
 }
+
 /* preloader */
 #preloader {
   background-color: #fff;
@@ -33,8 +40,9 @@ section{
   bottom: 0;
   left: 0;
   right: 0;
-  z-index: 9999; 
+  z-index: 9999;
 }
+
 #status {
   background-image: url(./gif/Facebook-0.9s-70px.gif);
   background-repeat: no-repeat;
@@ -46,11 +54,13 @@ section{
   margin-top: -35px;
   margin-left: -35px;
 }
+
 /*    Home  */
 #home {
   height: 100%;
   background: none;
 }
+
 #home-bg-video {
   position: fixed;
   top: 50%;
@@ -68,6 +78,7 @@ section{
   background: url('../img/video/kola.mp4') no-repeat;
   background-size: cover;
 }
+
 #home-overlay {
   background-color: rgba(0, 0, 0, 1);
   width: 100%;
@@ -78,15 +89,18 @@ section{
   z-index: -1;
   cursor: pointer;
 }
+
 #home-content {
   display: table;
   width: 100%;
   height: 100%;
 }
+
 #home-content-inner {
   display: table-cell;
   vertical-align: middle;
 }
+
 #home-heading h1 {
   color: #fff;
   font-size: 65px;
@@ -95,10 +109,12 @@ section{
   margin: 0;
   display: inline-block;
 }
+
 #home-heading h1 span {
   color: green;
   font-weight: lighter;
 }
+
 #home-text p {
   color: #000;
   font-size: 17px;
@@ -125,17 +141,20 @@ section{
   -o-transition: all .5s;
   outline: none;
 }
+
 .btn-home {
   color: #fff;
   border: 1px solid #f4c613;
   background: rgba(0, 0, 0, 0.9);
 }
+
 .btn-home:hover,
 .btn-home:focus {
   color: #fff;
   background-color: #f4c613;
   border: 1px solid #f4c613;
 }
+
 /* Arrow Down */
 #arrow-down {
   position: absolute;
@@ -149,14 +168,21 @@ section{
   margin-left: -16px;
   z-index: 1;
 }
+
 #arrow-down:hover,
 #arrow-down:focus {
   color: #f4c613;
 }
+
 /* Content Boxes */
 .content-box-lg {
   padding: 7em 0;
 }
+
+.content-box-md {
+  padding: 100px 0;
+}
+
 /* Vertical Headings */
 .vertical-heading h5 {
   color: #f4c613;
@@ -172,25 +198,102 @@ section{
   -o-transform: rotate(-90deg);
   position: relative;
   top: 60px;
-  left: -65px;
+  left: -63px;
 }
+
 .vertical-heading h2 {
   margin: 0 0 0 35px;
   font-size: 42px;
   font-weight: 100;
   line-height: 45px;
 }
+
 /* About first */
 #about-right p:first-child {
   margin-bottom: 30px;
 }
+
 #about-bottom {
   margin-top: 60px;
 }
+
 #about-bottom img {
   margin: 0 auto;
   width: 100%;
   z-index: -2;
+}
+
+#about-02 {
+  background-color: #f4f4f4;
+}
+
+.about-item {
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  padding: 80px 30px;
+  box-shadow: 0 2px 3px #ccc;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.about-item i {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.about-item h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-item hr {
+  width: 45px;
+  height: 3px;
+  background-color: #f4c613;
+  margin: 0 auto;
+  border: none;
+}
+
+.about-item p {
+  margin-top: 20px;
+}
+
+/* Hover state */
+.about-item:hover {
+  background-color: #f4c613;
+  border: 1px solid #f4c613;
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p {
+  color: #fff;
+}
+
+.about-item:hover hr {
+  background-color: #fff;
+}
+
+/* Smooth transition */
+.about-item,
+.about-item i,
+.about-item hr {
+  transition: all 400ms ease-in-out;
+  -webkit-transition: all 400ms ease-in-out;
+  -moz-transition: all 400ms ease-in-out;
+  -ms-transition: all 400ms ease-in-out;
+  -o-transition: all 400ms ease-in-out;
+}
+
+.about-item:hover i {
+  transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -o-transform: translateY(-20px);
 }
 
 
